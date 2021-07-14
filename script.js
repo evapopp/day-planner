@@ -51,6 +51,7 @@ $('.saveBtn').on('click', function(){
     var text11 = $('#11').val().trim()
     $('<textarea>').append(text11)
     localStorage.setItem('11am', text11)
+    
 })
 
 function load11(){
